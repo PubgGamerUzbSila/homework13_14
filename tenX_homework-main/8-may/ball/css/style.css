@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  width: 200vh;
+  height: 90vh;
+  border: 2px solid black;
+  margin: 0 auto;
+  position: relative;
+}
+
+.ball {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  animation: anime 5s ease 1 forwards;
+}
+
+@keyframes anime {
+  0% {
+    bottom: 0;
+    left: -50px;
+  }
+  5% {
+    left: 0;
+    bottom: 400px;
+  }
+  10% {
+    left: 50px;
+    bottom: 0;
+  }
+  15% {
+    left: 100px;
+    bottom: 350px;
+  }
+  20% {
+    left: 150px;
+    bottom: 0;
+  }
+  25% {
+    left: 200px;
+    bottom: 300px;
+  }
+  30% {
+    left: 250px;
+    bottom: 0;
+  }
+  35% {
+    left: 300px;
+    bottom: 250px;
+  }
+  40% {
+    left: 340px;
+    bottom: 0;
+  }
+  45% {
+    left: 380px;
+    bottom: 230px;
+  }
+  50% {
+    left: 430px;
+    bottom: 0;
+  }
+  55% {
+    left: 470px;
+    bottom: 200px;
+  }
+  60% {
+    left: 510px;
+    bottom: 0px;
+  }
+  65% {
+    left: 540px;
+    bottom: 150px;
+  }
+  70% {
+    left: 570px;
+    bottom: 0px;
+  }
+  75% {
+    left: 600px;
+    bottom: 130px;
+  }
+  80% {
+    left: 630px;
+    bottom: 0px;
+  }
+  85% {
+    left: 670px;
+    bottom: 90px;
+  }
+  87% {
+    left: 700px;
+    bottom: 0px;
+  }
+  90% {
+    left: 740px;
+    bottom: 50px;
+  }
+  93% {
+    left: 770px;
+    bottom: 0px;
+  }
+  97% {
+    left: 790px;
+    bottom: 10px;
+  }
+  100% {
+    left: 800px;
+    bottom: 0;
+  }
+}

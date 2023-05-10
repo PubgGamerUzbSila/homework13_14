@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  width: 1080px;
+  height: 1080px;
+  background-image: url(../img/flyerTosin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding-top: 450px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 37px 25px;
+  gap: 8px;
+  width: 347px;
+  height: 182px;
+  background: #fff9f2;
+  border: 4px solid #d37528;
+  border-radius: 0px 100px 100px 0px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.0131px;
+  line-height: 30px;
+  color: #210b01;
+}
+
+.header_link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 29px 28px;
+  width: 370px;
+  height: 178px;
+  background: #fff9f2;
+  border: 4px solid #d37528;
+  border-radius: 100px 0px 0px 100px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24.0131px;
+  line-height: 30px;
+}
+
+.header_link a {
+  color: #210b01;
+  text-align: center;
+  transition: 0.4s ease;
+}
+
+.header_link a:hover {
+  transform: scale(1.1);
+}
+
+.header > h1 {
+  width: 554px;
+  height: 74px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 58.663px;
+  line-height: 74px;
+  color: #ffca6c;
+}
+
+.header > p {
+  width: 767px;
+  height: 64px;
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 300;
+  font-size: 50.663px;
+  line-height: 64px;
+  color: #ffca6c;
+}
+
+.header_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 17px 0px;
+  gap: 8px;
+  width: 400px;
+  height: 284px;
+  border: 4.3366px solid #ffca6c;
+}
+
+.header_list h1 {
+  width: 140px;
+  height: 35px;
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffca6c;
+}
+
+.header_list li {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff9f2;
+  margin-bottom: -7px;
+}

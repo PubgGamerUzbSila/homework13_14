@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.header {
+  width: 1080px;
+  height: 1080px;
+  background-image: url(../img/flyer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  padding: 0 190px;
+  position: relative;
+}
+
+.header_in {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_in > img {
+  margin-top: 24px;
+  width: 146px;
+  height: 146px;
+}
+
+.header_in span {
+  width: 188px;
+  height: 85px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 70.6092px;
+  line-height: 85px;
+  color: #000000;
+  margin-top: -18px;
+}
+
+.header_in h1 {
+  width: 693px;
+  height: 171px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 141.609px;
+  line-height: 171px;
+
+  color: #000000;
+  margin-top: -18px;
+}
+
+.header_in h2 {
+  width: 261px;
+  height: 110px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90.6092px;
+  line-height: 110px;
+  color: #000000;
+  margin-top: -18px;
+}
+
+.header_in a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 58px;
+  color: #ffffff;
+  padding: 20px 60px;
+  width: 419px;
+  height: 98px;
+  background: #7a3d2e;
+  border-radius: 100px;
+  margin-top: 420px;
+  transition: 0.5s ease;
+}
+
+.header_in a:hover {
+  background-color: #fff;
+  color: #000000;
+  transform: scale(1.1);
+}
+
+.header_order {
+  width: 311px;
+  height: 311px;
+  border-radius: 50%;
+  background: #fff9f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 440px;
+  right: 40px;
+}
+
+.header_order h3 {
+  width: 180px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21.7753px;
+  line-height: 19px;
+  text-transform: uppercase;
+  margin-top: 15px;
+}
